@@ -3,7 +3,7 @@ package com.pluralsight;
 import java.io.*;
 
 public class DealershipFileManager {
-    public Dealership getDealershiP(){
+    public Dealership getDealership(){
         Dealership dealership = new Dealership();
         try{
             FileReader fileReader = new FileReader("inventory.csv");
