@@ -122,6 +122,7 @@ public class UserInterface {
 
     public void processAddVehicleRequest(){
         dealership.addVehicle();
+        processFile.saveDealership(dealership);
     }
 
     public void processRemoveVehicleRequest(){

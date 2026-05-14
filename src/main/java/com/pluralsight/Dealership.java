@@ -180,12 +180,13 @@ public class Dealership {
 //            37846|2001|Ford|Ranger|truck|Yellow|172544|1995.00
 //            44901|2012|Honda|Civic|SUV|Gray|103221|6995.00
 
-            bufferedWriter.write(vin + "|" + year + "|" + make + "|" + model + "|" + vehicleType
+            bufferedWriter.write(vin + "|" + year + "|" + make + "|" + model + "|" + vehicleType + "|"
                 + color + "|" + odometer + "|" + price);
             bufferedWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
+
 
     }
 
